@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCE48F6F7EC20219F8E2C80 /* Pods_HitoKotoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E715945E183741AEB16640 /* Pods_HitoKotoUITests.framework */; };
+		78D23FAF2152169500953D40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D23FAE2152169500953D40 /* AppDelegate.swift */; };
+		78D23FB12152169500953D40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D23FB02152169500953D40 /* ViewController.swift */; };
+		78D23FB42152169500953D40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D23FB22152169500953D40 /* Main.storyboard */; };
+		78D23FB62152169D00953D40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D23FB52152169D00953D40 /* Assets.xcassets */; };
+		78D23FB92152169D00953D40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D23FB72152169D00953D40 /* LaunchScreen.storyboard */; };
+		78D23FC42152169D00953D40 /* HitoKotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D23FC32152169D00953D40 /* HitoKotoTests.swift */; };
+		78D23FCF2152169D00953D40 /* HitoKotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D23FCE2152169D00953D40 /* HitoKotoUITests.swift */; };
+		A70B3B3C0AD4F0B3C1A6CE68 /* Pods_HitoKoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769FEDAF127D8651500DD06 /* Pods_HitoKoto.framework */; };
+		AC3F68590BCD0FB45B57A92B /* Pods_HitoKotoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D3C69866F752580935CC87 /* Pods_HitoKotoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78D23FC02152169D00953D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D23FA32152169500953D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D23FAA2152169500953D40;
+			remoteInfo = HitoKoto;
+		};
+		78D23FCB2152169D00953D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78D23FA32152169500953D40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78D23FAA2152169500953D40;
+			remoteInfo = HitoKoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04E715945E183741AEB16640 /* Pods_HitoKotoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitoKotoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B71C284260C5D34E2025B6C /* Pods-HitoKotoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitoKotoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HitoKotoUITests/Pods-HitoKotoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		32FA7B6E4EE111C85FB4D625 /* Pods-HitoKoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitoKoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-HitoKoto/Pods-HitoKoto.release.xcconfig"; sourceTree = "<group>"; };
+		493CB17575A9AD8DEF5F5318 /* Pods-HitoKotoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitoKotoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HitoKotoTests/Pods-HitoKotoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A63D372FF1045BFE639DE46 /* Pods-HitoKotoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitoKotoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HitoKotoUITests/Pods-HitoKotoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7769FEDAF127D8651500DD06 /* Pods_HitoKoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitoKoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D23FAB2152169500953D40 /* HitoKoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HitoKoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D23FAE2152169500953D40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78D23FB02152169500953D40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78D23FB32152169500953D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78D23FB52152169D00953D40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78D23FB82152169D00953D40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78D23FBA2152169D00953D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D23FBF2152169D00953D40 /* HitoKotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoKotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D23FC32152169D00953D40 /* HitoKotoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitoKotoTests.swift; sourceTree = "<group>"; };
+		78D23FC52152169D00953D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D23FCA2152169D00953D40 /* HitoKotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitoKotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D23FCE2152169D00953D40 /* HitoKotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitoKotoUITests.swift; sourceTree = "<group>"; };
+		78D23FD02152169D00953D40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91FCA79AB7AE3864887065D8 /* Pods-HitoKoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitoKoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HitoKoto/Pods-HitoKoto.debug.xcconfig"; sourceTree = "<group>"; };
+		BD14DC77211F968B4A7DD89C /* Pods-HitoKotoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HitoKotoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HitoKotoTests/Pods-HitoKotoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E1D3C69866F752580935CC87 /* Pods_HitoKotoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HitoKotoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78D23FA82152169500953D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70B3B3C0AD4F0B3C1A6CE68 /* Pods_HitoKoto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D23FBC2152169D00953D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3F68590BCD0FB45B57A92B /* Pods_HitoKotoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D23FC72152169D00953D40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCE48F6F7EC20219F8E2C80 /* Pods_HitoKotoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17FBE666358AE66A96C06507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7769FEDAF127D8651500DD06 /* Pods_HitoKoto.framework */,
+				E1D3C69866F752580935CC87 /* Pods_HitoKotoTests.framework */,
+				04E715945E183741AEB16640 /* Pods_HitoKotoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73888782A16A28CE2413F142 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91FCA79AB7AE3864887065D8 /* Pods-HitoKoto.debug.xcconfig */,
+				32FA7B6E4EE111C85FB4D625 /* Pods-HitoKoto.release.xcconfig */,
+				493CB17575A9AD8DEF5F5318 /* Pods-HitoKotoTests.debug.xcconfig */,
+				BD14DC77211F968B4A7DD89C /* Pods-HitoKotoTests.release.xcconfig */,
+				6A63D372FF1045BFE639DE46 /* Pods-HitoKotoUITests.debug.xcconfig */,
+				0B71C284260C5D34E2025B6C /* Pods-HitoKotoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		78D23FA22152169500953D40 = {
+			isa = PBXGroup;
+			children = (
+				78D23FAD2152169500953D40 /* HitoKoto */,
+				78D23FC22152169D00953D40 /* HitoKotoTests */,
+				78D23FCD2152169D00953D40 /* HitoKotoUITests */,
+				78D23FAC2152169500953D40 /* Products */,
+				73888782A16A28CE2413F142 /* Pods */,
+				17FBE666358AE66A96C06507 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78D23FAC2152169500953D40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78D23FAB2152169500953D40 /* HitoKoto.app */,
+				78D23FBF2152169D00953D40 /* HitoKotoTests.xctest */,
+				78D23FCA2152169D00953D40 /* HitoKotoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78D23FAD2152169500953D40 /* HitoKoto */ = {
+			isa = PBXGroup;
+			children = (
+				78D23FAE2152169500953D40 /* AppDelegate.swift */,
+				78D23FB02152169500953D40 /* ViewController.swift */,
+				78D23FB22152169500953D40 /* Main.storyboard */,
+				78D23FB52152169D00953D40 /* Assets.xcassets */,
+				78D23FB72152169D00953D40 /* LaunchScreen.storyboard */,
+				78D23FBA2152169D00953D40 /* Info.plist */,
+			);
+			path = HitoKoto;
+			sourceTree = "<group>";
+		};
+		78D23FC22152169D00953D40 /* HitoKotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				78D23FC32152169D00953D40 /* HitoKotoTests.swift */,
+				78D23FC52152169D00953D40 /* Info.plist */,
+			);
+			path = HitoKotoTests;
+			sourceTree = "<group>";
+		};
+		78D23FCD2152169D00953D40 /* HitoKotoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78D23FCE2152169D00953D40 /* HitoKotoUITests.swift */,
+				78D23FD02152169D00953D40 /* Info.plist */,
+			);
+			path = HitoKotoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78D23FAA2152169500953D40 /* HitoKoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D23FD32152169D00953D40 /* Build configuration list for PBXNativeTarget "HitoKoto" */;
+			buildPhases = (
+				9E44EC1DEAFBD08D7F62D47C /* [CP] Check Pods Manifest.lock */,
+				78D23FA72152169500953D40 /* Sources */,
+				78D23FA82152169500953D40 /* Frameworks */,
+				78D23FA92152169500953D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HitoKoto;
+			productName = HitoKoto;
+			productReference = 78D23FAB2152169500953D40 /* HitoKoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78D23FBE2152169D00953D40 /* HitoKotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D23FD62152169D00953D40 /* Build configuration list for PBXNativeTarget "HitoKotoTests" */;
+			buildPhases = (
+				3E877BA5F5321BB171C73CA4 /* [CP] Check Pods Manifest.lock */,
+				78D23FBB2152169D00953D40 /* Sources */,
+				78D23FBC2152169D00953D40 /* Frameworks */,
+				78D23FBD2152169D00953D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D23FC12152169D00953D40 /* PBXTargetDependency */,
+			);
+			name = HitoKotoTests;
+			productName = HitoKotoTests;
+			productReference = 78D23FBF2152169D00953D40 /* HitoKotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78D23FC92152169D00953D40 /* HitoKotoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D23FD92152169D00953D40 /* Build configuration list for PBXNativeTarget "HitoKotoUITests" */;
+			buildPhases = (
+				E00E31275540F2052F7D9AD9 /* [CP] Check Pods Manifest.lock */,
+				78D23FC62152169D00953D40 /* Sources */,
+				78D23FC72152169D00953D40 /* Frameworks */,
+				78D23FC82152169D00953D40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78D23FCC2152169D00953D40 /* PBXTargetDependency */,
+			);
+			name = HitoKotoUITests;
+			productName = HitoKotoUITests;
+			productReference = 78D23FCA2152169D00953D40 /* HitoKotoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78D23FA32152169500953D40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = hyungkyu.kim;
+				TargetAttributes = {
+					78D23FAA2152169500953D40 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					78D23FBE2152169D00953D40 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 78D23FAA2152169500953D40;
+					};
+					78D23FC92152169D00953D40 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 78D23FAA2152169500953D40;
+					};
+				};
+			};
+			buildConfigurationList = 78D23FA62152169500953D40 /* Build configuration list for PBXProject "HitoKoto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78D23FA22152169500953D40;
+			productRefGroup = 78D23FAC2152169500953D40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78D23FAA2152169500953D40 /* HitoKoto */,
+				78D23FBE2152169D00953D40 /* HitoKotoTests */,
+				78D23FC92152169D00953D40 /* HitoKotoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78D23FA92152169500953D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D23FB92152169D00953D40 /* LaunchScreen.storyboard in Resources */,
+				78D23FB62152169D00953D40 /* Assets.xcassets in Resources */,
+				78D23FB42152169500953D40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D23FBD2152169D00953D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D23FC82152169D00953D40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E877BA5F5321BB171C73CA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitoKotoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E44EC1DEAFBD08D7F62D47C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitoKoto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E00E31275540F2052F7D9AD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HitoKotoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78D23FA72152169500953D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D23FB12152169500953D40 /* ViewController.swift in Sources */,
+				78D23FAF2152169500953D40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D23FBB2152169D00953D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D23FC42152169D00953D40 /* HitoKotoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78D23FC62152169D00953D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D23FCF2152169D00953D40 /* HitoKotoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78D23FC12152169D00953D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D23FAA2152169500953D40 /* HitoKoto */;
+			targetProxy = 78D23FC02152169D00953D40 /* PBXContainerItemProxy */;
+		};
+		78D23FCC2152169D00953D40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78D23FAA2152169500953D40 /* HitoKoto */;
+			targetProxy = 78D23FCB2152169D00953D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78D23FB22152169500953D40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D23FB32152169500953D40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78D23FB72152169D00953D40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78D23FB82152169D00953D40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78D23FD12152169D00953D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78D23FD22152169D00953D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78D23FD42152169D00953D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FCA79AB7AE3864887065D8 /* Pods-HitoKoto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitoKoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hkimPro.HitoKoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78D23FD52152169D00953D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FA7B6E4EE111C85FB4D625 /* Pods-HitoKoto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitoKoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hkimPro.HitoKoto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78D23FD72152169D00953D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 493CB17575A9AD8DEF5F5318 /* Pods-HitoKotoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitoKotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hkimPro.HitoKotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitoKoto.app/HitoKoto";
+			};
+			name = Debug;
+		};
+		78D23FD82152169D00953D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD14DC77211F968B4A7DD89C /* Pods-HitoKotoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitoKotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hkimPro.HitoKotoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HitoKoto.app/HitoKoto";
+			};
+			name = Release;
+		};
+		78D23FDA2152169D00953D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A63D372FF1045BFE639DE46 /* Pods-HitoKotoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitoKotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hkimPro.HitoKotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HitoKoto;
+			};
+			name = Debug;
+		};
+		78D23FDB2152169D00953D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B71C284260C5D34E2025B6C /* Pods-HitoKotoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HitoKotoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hkimPro.HitoKotoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HitoKoto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78D23FA62152169500953D40 /* Build configuration list for PBXProject "HitoKoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D23FD12152169D00953D40 /* Debug */,
+				78D23FD22152169D00953D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D23FD32152169D00953D40 /* Build configuration list for PBXNativeTarget "HitoKoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D23FD42152169D00953D40 /* Debug */,
+				78D23FD52152169D00953D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D23FD62152169D00953D40 /* Build configuration list for PBXNativeTarget "HitoKotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D23FD72152169D00953D40 /* Debug */,
+				78D23FD82152169D00953D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D23FD92152169D00953D40 /* Build configuration list for PBXNativeTarget "HitoKotoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78D23FDA2152169D00953D40 /* Debug */,
+				78D23FDB2152169D00953D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78D23FA32152169500953D40 /* Project object */;
+}
