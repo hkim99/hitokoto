@@ -10,8 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var nameArray = ["鶴岡", "飯田", "中山", "渡邊", "志田", "田中", "金", "鈴木", "赤沼", "駒井", "西本", "柿本", "相場",
-                     "山岸", "本間", "浅野", "佐々木", "田淵", "いいだ", "ちょう", "崔", ""]
+    var nameArray = ["田中", "橋本", "山田", "山本"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
